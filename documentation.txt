@@ -1,0 +1,9 @@
+frontEnd:
+    npm install axios
+    npm install chart.js 
+    npm install moment
+    npm install react-chartjs-2
+    npm install react-datepicker
+    npm install styled-components
+
+continues before 1:27:20
