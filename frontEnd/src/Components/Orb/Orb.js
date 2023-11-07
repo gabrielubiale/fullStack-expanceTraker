@@ -1,22 +1,22 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
-import { useWindowSize } from '../../utils/useWindowSize'
+import { useWindowSize } from '../../utils/useWindowSize';
 
 function Orb() {
 
-    const { width, height } = useWindowSize();
+    const {width, height} = useWindowSize()
 
     console.log(width, height)
 
     const moveOrb = keyframes`
         0%{
-            transform: translate(0,0);
+            transform: translate(0, 0);
         }
         50%{
             transform: translate(${width}px, ${height/2}px);
         }
         100%{
-            transform: translate(0,0);
+            transform: translate(0, 0);
         }
     `
 
@@ -31,7 +31,6 @@ function Orb() {
         filter: blur(400px);
         animation: ${moveOrb} 15s alternate linear infinite;
     `;
-
 
     return (
         <OrbStyled></OrbStyled>
