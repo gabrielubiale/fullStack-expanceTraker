@@ -43,6 +43,7 @@ function Dashboard() {
                 </div>
                 <div className="history-con">
                     <History />
+                    {/* maior e menor receita e despesa */}
                     <h2 className="salary-title">Min <span>Salary</span>Max</h2>
                     <div className="salary-item">
                         <p>
